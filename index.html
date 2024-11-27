@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
 
   </head>
-  <body>
+  <body class="text-light">
     <header class="d-flex justify-content-between p-2 bg-dark">
       <div class="container">
         <a class="text-decoration-none" href="#">
@@ -28,31 +28,46 @@
       </div>
     </header>
 
-    <main>
-      <section id="home">
-        <img
-          src="https://static.vecteezy.com/ti/vetor-gratis/p1/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg"
-          alt=""
-        />
-        <div>
-          <span>Fotógrafa</span>
-          <h1>Thayane Marinho</h1>
-          <p>
-            Existem muitas variações disponíveis de passagens de Lorem Ipsum,
-            mas a maioria sofreu algum tipo de alteração, seja por inserção de
-            passagens com humor, ou palavras aleatórias que não parecem nem um
-            pouco convincentes. Se você pretende usar uma passagem de Lorem
-            Ipsum, precisa ter certeza de que não há algo embaraçoso escrito
-            escondido no meio do texto.
-          </p>
+    <main class="bg-dark text-light">
+      <section id="home" class="container-fluid">
+        <div class="bg-dark d-flex align-items-end" style="background-image: url(src/img/_MG_3119.jpg); background-repeat: no-repeat; background-size: cover; height: 710px; opacity: 1;">
+        
+          <div class="container text-center d-row-flex position-relative" style="background-color: rgba(0, 0, 0, 0.247); opacity: 0,5;">
+            <span class="text-uppercase">Fotógrafa</span>
+            <h1 class="text-white pt-1" >Thayane Marinho</h1>
+            <p class="pb-5 mx-auto">
+              Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes. Se você pretende usar uma passagem de Lorem Ipsum, precisa ter certeza de que não há algo embaraçoso escrito escondido no meio do texto.
+            </p>
+          </div>
         </div>
-        <div> <!-- adicionar configuraçoes da camera -->
-          <img src="" alt="" /> <!-- icone de 1/2000s -->
-          <img src="" alt="" /> <!-- f/11  -->
-          <img src="" alt="" /> <!-- iso 100 -->
-          <img src="" alt="" /> <!-- localização -->
+        
+        <div class="d-flex justify-content-end"> <!-- adicionar configuraçoes da camera -->
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera2" viewBox="0 0 16 16">
+            <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
+            <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
+          </svg> 1/2000s
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-record-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+            </svg> f/11
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brilliance" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"/>
+            </svg> 100
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg> Rio de Janeiro
+          </span>
+        </div>
         </div>
       </section>
+
+      <div class="my-5"></div>
 
       <section id="about">
         <div>
