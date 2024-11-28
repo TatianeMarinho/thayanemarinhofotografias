@@ -30,9 +30,9 @@
 
     <main class="bg-dark text-light">
       <section id="home" class="container-fluid">
-        <div class="bg-dark d-flex align-items-end" style="background-image: url(src/img/_MG_3119.jpg); background-repeat: no-repeat; background-size: cover; height: 710px; opacity: 1;">
+        <div class="bg-dark d-flex align-items-end " style="background-image: url(src/img/_MG_3116.jpg); background-repeat: no-repeat;background-position: center; background-size: cover; height: 710px; opacity: 1;">
         
-          <div class="container text-center d-row-flex position-relative" style="background-color: rgba(0, 0, 0, 0.247); opacity: 0,5;">
+          <div class="container text-center d-row-flex position-relative">
             <span class="text-uppercase">Fotógrafa</span>
             <h1 class="text-white pt-1" >Thayane Marinho</h1>
             <p class="pb-5 mx-auto">
@@ -69,52 +69,66 @@
 
       <div class="my-5"></div>
 
-      <section id="about">
-        <div>
-          <div>
-            <div>
-              <h2>Eu sou bla bla bla</h2>
-              <p>
-                é simplesmente uma simulação de texto da indústria tipográfica e
-                de impressos, e vem sendo utilizado desde o século XVI, quando
-                um impressor desconhecido pegou uma bandeja de tipos e os
-                embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
-                sobreviveu não só a cinco séculos, como também ao salto para a
-                editoração eletrônica, permanecendo essencialmente inalterado.
-                Se popularizou na década de 60.
+      <section id="about" class="container-fluid" style="width: 100%;">
+        <div class="row">
+          <div class="position-relative col-12 col-md-6 mt-5 pt-2">
+            <div class="mx-auto" style="max-width: 450px;">
+              <h2 class="fw-normal title text-white tools__title pb-3 pt-1 text-uppercase">
+                Com a câmera em mãos, transformo momentos comuns em poesia visual, capturando a essência do mundo em cada clique
+              </h2>
+              <p class="text-white mx-auto pb-3">
+                Fotografar não é apenas registrar; é sentir, observar e revelar belezas que muitos deixam passar. Cada imagem é um fragmento de história, uma prova de que, através da lente, até o mais simples detalhe pode se transformar em algo extraordinário, repleto de significado e beleza.
               </p>
             </div>
           </div>
-          <div>
-            <div>
-              <img
-                src="https://images.getninjas.com.br/compressed_professional_header_images_b/373/original/fotografo_2.png?1498248918"
-                alt=""
-              />
-              <!-- colocar como background desta div uma foto sua tirando foto -->
+          <div class="col-6 col-xxl-6">
+            <div class="page-header bg-dark" style="background-image: url(/src/img/Thayperfil.jpg); /* background-attachment: fixed;*/ background-position: center; background-repeat: no-repeat;			background-size: cover; height: 650px">
+              <img src="" alt="">
             </div>
           </div>
         </div>
       </section>
 
-      <section class="photo"> <!-- photo é a classe que vai ser usada para cada foto -->
-        <div> <!-- colocar a imagem como background desta div -->
-          <img
-            src="https://static.vecteezy.com/ti/vetor-gratis/p1/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg"
-            alt=""
-          />
-          <div>
-            <p>NOme do lugar ou planta</p>
-            <p>Breve explicação do lugar ou do conceito da foto</p>
+      <div class="my-5"></div>
+
+      <section class="photo container-fluid"> <!-- photo é a classe que vai ser usada para cada foto -->
+        <div class="bg-dark d-flex align-items-center justify-content-end" style="background-image: url(src/img/_MG_3115.jpg); background-repeat: no-repeat;background-position:center; background-size: cover; height: 710px; opacity: 1;">
+        
+          <div class="d-row-flex position-relative mr-5">
+            <p class="text-uppercase" style="letter-spacing: 3px; text-align: center;">nome do lugar</p>
+            <p class="pb-5 mx-auto" style="max-width: 250px; text-align: justify;">
+              Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração.
+            </p>
           </div>
         </div>
-        <div> <!-- adicionar configurações da camera -->
-          <img src="" alt="" /> <!-- icone de 1/2000s -->
-          <img src="" alt="" /> <!-- f/11  -->
-          <img src="" alt="" /> <!-- iso 100 -->
-          <img src="" alt="" /> <!-- localização -->
+        
+        <div class="d-flex justify-content-end"> <!-- adicionar configuraçoes da camera -->
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera2" viewBox="0 0 16 16">
+            <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
+            <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
+          </svg> 1/2000s
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-record-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+            </svg> f/11
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brilliance" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"/>
+            </svg> 100
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg> Rio de Janeiro
+          </span>
+        </div>
         </div>
       </section> <!-- repetir esta section para cada foto -->
+
+      <div class="my-5"></div>
 
       <section id="Portfolio">
         <div>
@@ -135,24 +149,44 @@
         </div>
       </section>
 
-      <section class="photo"> <!-- photo é a classe que vai ser usada para cada foto -->
-        <div> <!-- colocar a imagem como background desta div -->
-          <img
-            src="https://static.vecteezy.com/ti/vetor-gratis/p1/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg"
-            alt=""
-          />
-          <div>
-            <p>NOme do lugar ou planta</p>
-            <p>Breve explicação do lugar ou do conceito da foto</p>
+      <section class="photo container-fluid"> <!-- photo é a classe que vai ser usada para cada foto -->
+        <div class="bg-dark d-flex align-items-center justify-content-end" style="background-image: url(src/img/CidadeDasBruxas.jpg); background-repeat: no-repeat;background-position:center; background-size: cover; height: 710px; opacity: 1;">
+        
+          <div class="d-row-flex position-relative mr-5" style="background-color: rgba(0, 0, 0, 0.192); max-height: 150px;">
+            <p class="text-uppercase" style="letter-spacing: 3px; text-align: center;">nome do lugar</p>
+            <p class="pb-5 mx-auto" style="max-width: 250px; text-align: justify;">
+              Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração.
+            </p>
           </div>
         </div>
-        <div> <!-- adicionar configurações da camera -->
-          <img src="" alt="" /> <!-- icone de 1/2000s -->
-          <img src="" alt="" /> <!-- f/11  -->
-          <img src="" alt="" /> <!-- iso 100 -->
-          <img src="" alt="" /> <!-- localização -->
+        
+        <div class="d-flex justify-content-end"> <!-- adicionar configuraçoes da camera -->
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera2" viewBox="0 0 16 16">
+            <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
+            <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
+          </svg> 1/2000s
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-record-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+            </svg> f/11
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brilliance" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"/>
+            </svg> 100
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg> Rio de Janeiro
+          </span>
+        </div>
         </div>
       </section> <!-- repetir esta section para cada foto -->
+
+      <div class="my-5"></div>
 
       <section id="customers">
         <div class="testimony">
@@ -178,24 +212,44 @@
         </div>
       </section>
 
-      <section class="photo"> <!-- photo é a classe que vai ser usada para cada foto -->
-        <div> <!-- colocar a imagem como background desta div -->
-          <img
-            src="https://static.vecteezy.com/ti/vetor-gratis/p1/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg"
-            alt=""
-          />
-          <div>
-            <p>NOme do lugar ou planta</p>
-            <p>Breve explicação do lugar ou do conceito da foto</p>
+      <section class="photo container-fluid"> <!-- photo é a classe que vai ser usada para cada foto -->
+        <div class="bg-dark d-flex align-items-center justify-content-end" style="background-image: url(src/img/ITU83.jpg); background-repeat: no-repeat;background-position:center; background-size: cover; height: 710px; opacity: 1;">
+        
+          <div class="d-row-flex position-relative mr-5">
+            <p class="text-uppercase" style="letter-spacing: 3px; text-align: center;">nome do lugar</p>
+            <p class="pb-5 mx-auto" style="max-width: 250px; text-align: justify;">
+              Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração.
+            </p>
           </div>
         </div>
-        <div> <!-- adicionar configurações da camera -->
-          <img src="" alt="" /> <!-- icone de 1/2000s -->
-          <img src="" alt="" /> <!-- f/11  -->
-          <img src="" alt="" /> <!-- iso 100 -->
-          <img src="" alt="" /> <!-- localização -->
+        
+        <div class="d-flex justify-content-end"> <!-- adicionar configuraçoes da camera -->
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera2" viewBox="0 0 16 16">
+            <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
+            <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
+          </svg> 1/2000s
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-record-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+            </svg> f/11
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brilliance" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"/>
+            </svg> 100
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg> Rio de Janeiro
+          </span>
         </div>
-      </section> <!-- repetir esta section para cada foto -->
+        </div>
+      </section>  <!-- repetir esta section para cada foto -->
+
+      <div class="my-5"></div>
 
       <section id="services">
         <div>
@@ -215,24 +269,44 @@
         </div>
       </section>
 
-            <section class="photo"> <!-- photo é a classe que vai ser usada para cada foto -->
-        <div> <!-- colocar a imagem como background desta div -->
-          <img
-            src="https://static.vecteezy.com/ti/vetor-gratis/p1/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg"
-            alt=""
-          />
-          <div>
-            <p>NOme do lugar ou planta</p>
-            <p>Breve explicação do lugar ou do conceito da foto</p>
+        <section class="photo container-fluid"> <!-- photo é a classe que vai ser usada para cada foto -->
+        <div class="bg-dark d-flex align-items-center justify-content-end" style="background-image: url(src/img/MuseuIpiranga.jpg); background-repeat: no-repeat;background-position:center; background-size: cover; height: 710px; opacity: 1;">
+        
+          <div class="d-row-flex position-relative mr-5" style="background-color: rgba(0, 0, 0, 0.199); max-height: 150px;">
+            <p class="text-uppercase" style="letter-spacing: 3px; text-align: center;">nome do lugar</p>
+            <p class="pb-5 mx-auto" style="max-width: 250px; text-align: justify;">
+              Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração.
+            </p>
           </div>
         </div>
-        <div> <!-- adicionar configurações da camera -->
-          <img src="" alt="" /> <!-- icone de 1/2000s -->
-          <img src="" alt="" /> <!-- f/11  -->
-          <img src="" alt="" /> <!-- iso 100 -->
-          <img src="" alt="" /> <!-- localização -->
+        
+        <div class="d-flex justify-content-end"> <!-- adicionar configuraçoes da camera -->
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera2" viewBox="0 0 16 16">
+            <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
+            <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
+          </svg> 1/2000s
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-record-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+            </svg> f/11
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brilliance" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"/>
+            </svg> 100
+          </span>
+          <span class="p-1 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg> Rio de Janeiro
+          </span>
         </div>
-      </section> <!-- repetir esta section para cada foto -->
+        </div>
+      </section>  <!-- repetir esta section para cada foto -->
+
+      <div class="my-5"></div>
 
       <section id="contact">
         <div>
